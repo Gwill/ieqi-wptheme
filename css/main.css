@@ -1,0 +1,501 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+*/
+   
+body {
+    font-family: "Microsoft Yahei","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2755A1;
+}
+   
+header {
+    width: 27%;
+    height: 100%;
+    position: fixed;
+    background: #f5f5f5;
+}
+
+section {
+    margin-left: 27%;
+}
+
+pre {
+    border-left: 0;
+    border-right: 0;
+}
+
+.sidebar {
+    padding: 60px 60px;
+    border-right: 1px solid #E2E2E2;
+}
+
+.sidebar h1 {
+    margin: 0;
+}
+
+.sidebar h1 a {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    margin: 0;
+    text-decoration: none;
+    color: #222;
+}
+
+.sidebar span {
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    margin: 20px 0;
+    color: #aaa;
+}
+
+.sidebar p {
+    color: #585C60;
+    font-size: 15px;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li{
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #999;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.sidebar ul li a:hover {
+    color: #2755A1;
+}
+
+.sidebar ul li ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.sidebar form {
+    margin: 30px 0;
+}
+
+.sidebar #search-text {
+    background: url("../img/icon-search.png") 14px center no-repeat;
+    border: 1px solid #E7E7E7;
+    width: 70%;
+    padding: 10px 20px;
+    text-indent: 20px;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+.sidebar #search-text:hover {
+    border-color: #2755A1;
+}
+
+.sidebar #search-text:focus {
+    outline: none;
+    border-color: rgba(39,85,161,.7);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(39,85,161,.7);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(39,85,161,.7);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(39,85,161,.7);
+}
+
+.sidebar #search-submit {
+    display: none;
+}
+
+.articles {
+}
+
+.articles article {
+    border-top: 1px solid #E2E2E2;
+    padding: 60px;
+}
+
+.articles article h2 {
+    margin: 0 0 1em 0;
+}
+
+.articles article h2 a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.articles article h2 a:hover {
+    color: #2755A1;
+}
+
+.articles article .article-meta {
+    font-size: 12px;
+    color: #222;
+}
+
+.articles article .article-content {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #4D4D4D;
+}
+
+.articles article .article-content .more-link {
+    display: block;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    padding-left: 16px;
+    border-left: 4px solid #2755A1;
+    margin: 2em 0;
+    font-size: 16px;
+}
+
+.articles article .article-content .more-link:hover {
+    color: #2755A1;
+}
+
+.articles article .page-previous {
+    float: left;
+    padding-left: 16px;
+    border-left: 4px solid #2755A1;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.articles article .page-next {
+    float: right;
+    padding-right: 16px;
+    border-right: 4px solid #2755A1;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+
+#cnzz {
+    visibility: hidden;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    header {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    
+    header {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    
+    section {
+        margin: 0;
+    }
+    
+    .sidebar {
+        padding: 20px 20px;
+        border: 0;
+    }
+    
+    .sidebar ul li a {
+        font-size: 16px;
+    }
+    
+    .articles article {
+        padding: 30px;
+    }
+    
+    
+    
+    .hidden-desktop {
+        display: none !important;
+    }
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
