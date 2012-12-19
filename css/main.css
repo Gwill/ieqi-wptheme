@@ -122,8 +122,7 @@ section {
 }
 
 pre {
-    border-left: 0;
-    border-right: 0;
+    opacity: 0;
 }
 
 .sidebar {
