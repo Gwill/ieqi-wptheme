@@ -5,5 +5,5 @@ $.SyntaxHighlighter.init({
 $(function(){
     $("pre").animate({
         opacity:1
-    }, 500);
+    }, 1500);
 });
