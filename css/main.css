@@ -252,13 +252,21 @@ pre {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
     padding-left: 16px;
-    border-left: 4px solid #2755A1;
+    border-left: 6px solid #2755A1;
     margin: 2em 0;
     font-size: 16px;
 }
 
 .articles article .article-content .more-link:hover {
     color: #2755A1;
+}
+
+.articles article .article-content blockquote {
+    margin: 0;
+    border-left: 6px solid #2755A1;
+    padding-left: 12px;
+    padding-right: 18px;
+    line-height: 28px;
 }
 
 .articles article .page-previous {
