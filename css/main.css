@@ -272,7 +272,7 @@ pre {
 .articles article .page-previous {
     float: left;
     padding-left: 16px;
-    border-left: 4px solid #2755A1;
+    border-left: 6px solid #2755A1;
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
@@ -280,7 +280,7 @@ pre {
 .articles article .page-next {
     float: right;
     padding-right: 16px;
-    border-right: 4px solid #2755A1;
+    border-right: 6px solid #2755A1;
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
