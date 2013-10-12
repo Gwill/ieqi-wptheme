@@ -126,6 +126,7 @@ pre {
 }
 
 .sidebar {
+    height: 100%;
     padding: 60px 60px;
     border-right: 1px solid #E2E2E2;
 }
@@ -396,6 +397,11 @@ pre {
    Theses examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media (max-width: 1176px) {
+    .sidebar > p {
+        width: 110px;
+    }
+}
 
 @media (max-width: 768px) {
     header {

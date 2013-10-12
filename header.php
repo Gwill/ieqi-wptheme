@@ -33,7 +33,7 @@
         <div class="sidebar">
             <h1><a href="/">Probability</a></h1>
             <span>G_will's Blog</span>
-            <p>我们必须知道&nbsp;&nbsp;&nbsp;&nbsp;我们必将知道</p>
+            <p>我们必须知道&nbsp;&nbsp;&nbsp; 我们必将知道</p>
             <hr />
             <nav>
                 <ul>
