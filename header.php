@@ -20,7 +20,9 @@
         <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/apple-touch-icon.png"/>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+        <!--
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,600' rel='stylesheet' type='text/css'>
+        -->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
         <?php wp_head(); ?>
