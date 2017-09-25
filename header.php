@@ -15,22 +15,16 @@
         <meta name="author" content="G_will">
         <meta name="description" content="Ieqi.Net G_will's Blog">
         <meta name="viewport" content="width=device-width">
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="profile" href="//gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/apple-touch-icon.png"/>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
-        <!--
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,600' rel='stylesheet' type='text/css'>
-        -->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
         <?php wp_head(); ?>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
     <header>
         <div class="sidebar">
             <h1><a href="/">Probability</a></h1>

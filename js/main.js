@@ -1,6 +1,6 @@
 $.SyntaxHighlighter.init({
-    'prettifyBaseUrl': 'http://ieqi.net/wp-content/themes/ieqi-wptheme/jquery-syntaxhighlighter/prettify',
-    'baseUrl': 'http://ieqi.net/wp-content/themes/ieqi-wptheme/jquery-syntaxhighlighter'
+    'prettifyBaseUrl': '/wp-content/themes/ieqi-wptheme/jquery-syntaxhighlighter/prettify',
+    'baseUrl': '/wp-content/themes/ieqi-wptheme/jquery-syntaxhighlighter'
 });
 $(function(){
     $("pre").animate({
